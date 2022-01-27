@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+.header{
+    width: 100%;
+    height: 900px;
+    background-image: url('https://jb-slo.com/wp-content/uploads/2020/11/Domov-naslovka-1.jpg');
+    background-position: center;
+    background-attachment:fixed;
+}
+.nav-barre{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    height: 90px;
+    /* background-color: crimson; */
+    margin: auto;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.baremenu{
+    margin-top: 20px;
+    width: 60px;
+    height: 25px;
+    /* background-color: darkkhaki; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.baremenu:hover{
+    cursor: pointer;
+}
+.lines{
+    width: 30px;
+    height:3px;
+    background-color: black;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    /* background-color: cornflowerblue; */
+}
+.button{
+    font-size: 12px;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: black;
+    border: 3px solid black;
+    margin-top: 20px;
+    transition: 400ms;
+    letter-spacing: 4px;
+    transition: 200ms;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    width: 58%;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.815);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.menu-list{
+    width: 300px;
+    height: 200px;
+    /* background-color: rgba(0, 0, 0, 0.548); */
+    margin: auto;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-list li{
+    list-style: none;
+}
+.menu-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.active{
+    display: block;
+}
+.head{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-image: url('http://themearth.com/demo/html/restaura/view/assets/img/banner61.jpg');
+    background-position:center ;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightcoral; */
+}
+.titre{
+    width: 70%;
+    height: 60px;
+}
+.titre a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.titre span {
+    color: rgb(89, 241, 241);
+}
+.pic{
+    width: 70%;
+    height: 500px;
+    background-image: url('/images/rest.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.infos{
+    font-size: 18px;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 7px;
+    width: 20%;
+    height: 50px;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.title{
+    font-size: 18px;
+    font-weight: bolder;
+    width: 60%;
+    height: 110px;
+    font-weight: normal;
+    /* background-color: darkcyan; */
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.texte{
+    width: 50%;
+    height: max-content;
+    /* background-color: darkgreen; */
+    margin: auto;
+    margin-top: 20px;
+}
+.texte p {
+    text-align: justify;
+}
+@media screen and (max-width:1700px) {
+    .infos{
+        width: 30%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .infos{
+        width: 45%;
+    }
+}
+@media screen and (max-width:850px) {
+    .infos{
+        width: 58%;
+    }
+}
+@media screen and (max-width:600px) {
+    .infos{
+        width: 70%;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:650px) {
+    .title{
+        width: 80%;
+    }
+}
+@media screen and (max-width:500px) {
+    .infos{
+        width: 100%;
+    }
+    .title{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:400px) {
+    .title{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:900px) {
+    .texte{
+        width: 60%;
+    }
+}
+@media screen and (max-width:700px) {
+    .texte{
+        width: 70%;
+    }
+}
+@media screen and (max-width:600px) {
+    .texte{
+        width: 80%;
+    }
+}
+.pics{
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: violet; */
+    /* justify-content: center; */
+
+}
+.separation-line{
+    width: 50%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.815);
+}
+.statis{
+    margin-top: 20px;
+    width: 80%;
+    height:max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: slateblue; */
+}
+.stati{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: crimson; */
+    margin: 10px;
+}
+.stati p{
+    text-align: center;
+    font-size: 12px;
+}
+.stati h3{
+    font-weight:400;
+}
+.stati a{
+    color: rgba(0, 0, 0, 0.815);
+    transition: 100ms;
+}
+.stati a:hover{
+    color: rgba(0, 0, 0, 0.651);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width:550px) {
+    .statis{
+
+    }
+}
